@@ -65,13 +65,18 @@ ul {
     font-size: 18px;
 }
 
-.signup {
-    background-color: #3882f6;
-    color: white;
+.signup-blue,
+.signup-white {
     padding: 8px 28px;
     border: 0;
     border-radius: 10px;
     font-weight: bold;
+    max-height: 32px;
+}
+
+.signup-blue {
+    background-color: #3882f6;
+    color: white;
 }
 
 .media-right {
@@ -137,4 +142,31 @@ img {
     justify-content: flex-end;
     font-weight: bold;
     font-size: 24px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    margin: 90px 200px;
+    padding: 60px 90px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-white {
+    background-color: white;
+    color: #3882f6
 }
