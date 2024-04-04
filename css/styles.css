@@ -115,3 +115,26 @@ img {
 .info .text {
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 200px;
+    background-color: #E5E7EB;
+    height: 25vh;
+    justify-content: space-between;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
