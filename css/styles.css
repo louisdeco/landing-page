@@ -72,6 +72,7 @@ ul {
     border-radius: 10px;
     font-weight: bold;
     max-height: 32px;
+    min-width: 105px;
 }
 
 .signup-blue {
@@ -168,7 +169,7 @@ img {
 
 .signup-white {
     background-color: white;
-    color: #3882f6
+    color: #3882f6;
 }
 
 .footer {
